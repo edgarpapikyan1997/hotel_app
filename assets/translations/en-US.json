@@ -1,0 +1,15 @@
+{
+  "keywords": {
+    "hotel": "Hotel",
+    "from": "from",
+    "forTour": "for a tour with flights",
+    "about": "About",
+    "facilities": "Facilities",
+    "whatIncluded": "What's included",
+    "whatNotIncluded": "What's not included",
+    "necessary": "The most necessary things",
+    "noInfo": "Not Exist",
+    "toRoomChoose": "To the room choosing",
+    "currency": "$"
+  }
+}

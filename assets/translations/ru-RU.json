@@ -1,0 +1,15 @@
+{
+  "keywords" : {
+    "hotel" : "Отель",
+    "from" : "от",
+    "forTour" : "за тур с перелётом",
+    "about" : "Об отеле",
+    "facilities" : "Удобства",
+    "whatIncluded" : "Что включено",
+    "whatNotIncluded" : "Что не включеноd",
+    "necessary" : "Самое необходимое",
+    "noInfo" : "Отсутствует",
+    "toRoomChoose" : "К выбору номера",
+    "currency" : "₽"
+  }
+}
