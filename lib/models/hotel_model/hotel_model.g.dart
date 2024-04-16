@@ -8,7 +8,7 @@ part of 'hotel_model.dart';
 
 _$HotelModelImpl _$$HotelModelImplFromJson(Map<String, dynamic> json) =>
     _$HotelModelImpl(
-      id: json['id'] as int,
+      id: json['id'] as int?,
       name: json['name'] as String?,
       adress: json['adress'] as String?,
       minimal_price: json['minimal_price'] as int?,

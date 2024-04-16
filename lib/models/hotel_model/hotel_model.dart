@@ -5,7 +5,7 @@ part 'hotel_model.g.dart';
 @freezed
 class HotelModel with _$HotelModel {
   factory HotelModel({
-    required int id,
+    int? id,
     String? name,
     String? adress,
     int? minimal_price,

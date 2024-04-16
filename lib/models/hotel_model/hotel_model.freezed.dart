@@ -20,7 +20,7 @@ HotelModel _$HotelModelFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$HotelModel {
-  int get id => throw _privateConstructorUsedError;
+  int? get id => throw _privateConstructorUsedError;
   String? get name => throw _privateConstructorUsedError;
   String? get adress => throw _privateConstructorUsedError;
   int? get minimal_price => throw _privateConstructorUsedError;
@@ -43,7 +43,7 @@ abstract class $HotelModelCopyWith<$Res> {
       _$HotelModelCopyWithImpl<$Res, HotelModel>;
   @useResult
   $Res call(
-      {int id,
+      {int? id,
       String? name,
       String? adress,
       int? minimal_price,
@@ -67,7 +67,7 @@ class _$HotelModelCopyWithImpl<$Res, $Val extends HotelModel>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? id = null,
+    Object? id = freezed,
     Object? name = freezed,
     Object? adress = freezed,
     Object? minimal_price = freezed,
@@ -78,10 +78,10 @@ class _$HotelModelCopyWithImpl<$Res, $Val extends HotelModel>
     Object? about_the_hotel = freezed,
   }) {
     return _then(_value.copyWith(
-      id: null == id
+      id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int,
+              as int?,
       name: freezed == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
@@ -127,7 +127,7 @@ abstract class _$$HotelModelImplCopyWith<$Res>
   @override
   @useResult
   $Res call(
-      {int id,
+      {int? id,
       String? name,
       String? adress,
       int? minimal_price,
@@ -149,7 +149,7 @@ class __$$HotelModelImplCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? id = null,
+    Object? id = freezed,
     Object? name = freezed,
     Object? adress = freezed,
     Object? minimal_price = freezed,
@@ -160,10 +160,10 @@ class __$$HotelModelImplCopyWithImpl<$Res>
     Object? about_the_hotel = freezed,
   }) {
     return _then(_$HotelModelImpl(
-      id: null == id
+      id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int,
+              as int?,
       name: freezed == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
@@ -204,7 +204,7 @@ class __$$HotelModelImplCopyWithImpl<$Res>
 @JsonSerializable()
 class _$HotelModelImpl implements _HotelModel {
   _$HotelModelImpl(
-      {required this.id,
+      {this.id,
       this.name,
       this.adress,
       this.minimal_price,
@@ -219,7 +219,7 @@ class _$HotelModelImpl implements _HotelModel {
       _$$HotelModelImplFromJson(json);
 
   @override
-  final int id;
+  final int? id;
   @override
   final String? name;
   @override
@@ -301,7 +301,7 @@ class _$HotelModelImpl implements _HotelModel {
 
 abstract class _HotelModel implements HotelModel {
   factory _HotelModel(
-      {required final int id,
+      {final int? id,
       final String? name,
       final String? adress,
       final int? minimal_price,
@@ -315,7 +315,7 @@ abstract class _HotelModel implements HotelModel {
       _$HotelModelImpl.fromJson;
 
   @override
-  int get id;
+  int? get id;
   @override
   String? get name;
   @override
